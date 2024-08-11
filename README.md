@@ -7,7 +7,7 @@ To get the project up and running, follow these steps:
 1. **Clone the Project**
 
    ```bash
-   git clone https://github.com/idonavot303/full-stack-app.git
+   git clone https://github.com/idonavot303/full-stack-app.git --branch dev
 
 2. **Install Server Dependencies and Run the Server**
 
