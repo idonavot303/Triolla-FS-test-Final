@@ -1,0 +1,27 @@
+.root {
+}
+
+.linksContainer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.active {
+  background-color: #832f4d33;
+  color: #6f2841;
+  border-radius: 15px;
+  padding: 13px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.link {
+  padding: 13px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #8c8c8c;
+}
