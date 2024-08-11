@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { updateEvent } from '../api/services';
-import { CustomEvent } from '../ts/typs';
+import { CustomEvent } from '../types';
 
 export const useEventMenu = (props: {
   selectedEvent: CustomEvent;

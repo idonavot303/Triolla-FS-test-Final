@@ -2,7 +2,7 @@ import React from 'react';
 import EditEvent from './EditEvent';
 import AddEvent from './AddEvent';
 import { useEventMenu } from '../../hooks/useEventMenu';
-import { CustomEvent } from '../../ts/typs';
+import { CustomEvent } from '../../types';
 
 interface EventMenuProps {
   event: CustomEvent;

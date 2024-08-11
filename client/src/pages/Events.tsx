@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import EventMenu from '../components/EventMenu/EventMenu';
-import { CustomEvent } from '../ts/typs';
+import { CustomEvent } from '../types';
 import { useEvents } from '../hooks/useEvents';
 
 const Events: React.FC = () => {

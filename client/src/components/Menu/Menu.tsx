@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { MenuItem } from '../../ts/typs';
+import { MenuItem } from '../../types';
 import { useMenu } from '../../hooks/useMenu';
 
 const Menu = () => {

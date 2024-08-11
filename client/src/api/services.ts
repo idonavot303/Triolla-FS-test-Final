@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { CustomEvent } from '../ts/typs';
+import { CustomEvent } from '../types';
 
 const axiosInstance = axios.create({
   baseURL: 'http://localhost:10000',

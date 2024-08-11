@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { addEvent, fetchEvents } from '../api/services';
-import { CustomEvent } from '../ts/typs';
+import { CustomEvent } from '../types';
 
 export const useEvents = () => {
   const [data, setData] = useState<CustomEvent[]>([]);

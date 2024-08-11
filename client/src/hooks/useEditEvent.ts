@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { deleteEvent, updateEvent } from '../api/services';
-import { CustomEvent } from '../ts/typs';
+import { CustomEvent } from '../types';
 
 export const useEditEvent = (initialEvent: CustomEvent, setSelectedEvent: Function, refetchEvents: Function) => {
   const [newEvent, setEvent] = useState<CustomEvent>(initialEvent);

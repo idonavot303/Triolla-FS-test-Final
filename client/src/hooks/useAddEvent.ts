@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { addEvent } from '../api/services';
-import { CustomEvent } from '../ts/typs';
+import { CustomEvent } from '../types';
 
 export const useAddEvent = (props: {
   setSelectedEvent: Function;

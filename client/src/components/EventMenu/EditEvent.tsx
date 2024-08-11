@@ -1,7 +1,7 @@
 import { Button, TextField } from '@mui/material';
 import React from 'react';
 import { useEditEvent } from '../../hooks/useEditEvent';
-import { CustomEvent } from '../../ts/typs';
+import { CustomEvent } from '../../types';
 
 const EditEvent: React.FC<{
   event: CustomEvent;

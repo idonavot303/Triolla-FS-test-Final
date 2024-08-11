@@ -1,4 +1,4 @@
-import { MenuItem } from '../ts/typs';
+import { MenuItem } from '../types';
 
 export const useMenu = () => {
   const menuItems: MenuItem[] = [
